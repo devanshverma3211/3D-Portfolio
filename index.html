@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Devansh Verma portfolio: Data Analyst and Machine Learning Engineer."
+    />
+    <title>Devansh Verma | 3D Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="space-scene" aria-hidden="true"></canvas>
+    <div class="scanline" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Devansh Verma home">
+        <span class="brand-mark">DV</span>
+        <span>Devansh Verma</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow">System online / portfolio v3.0</p>
+          <h1>Data Analyst & Machine Learning Engineer</h1>
+          <p class="hero-text">
+            I turn complex datasets into dashboards, predictive models, and
+            automation systems across analytics, computer vision, NLP, and
+            real-time monitoring.
+          </p>
+          <div class="hero-actions" aria-label="Portfolio actions">
+            <a class="button primary" href="#work">View Work</a>
+            <a class="button secondary" href="#contact">Get In Touch</a>
+          </div>
+        </div>
+
+        <aside class="mission-panel" aria-label="Profile snapshot">
+          <div>
+            <span class="panel-label">Location</span>
+            <strong>Delhi NCR</strong>
+          </div>
+          <div>
+            <span class="panel-label">Focus</span>
+            <strong>Python, SQL, Power BI, Deep Learning</strong>
+          </div>
+          <div>
+            <span class="panel-label">Signal</span>
+            <strong>Dashboards, forecasts, automation, vision AI</strong>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section intro" aria-labelledby="summary-title">
+        <div>
+          <p class="eyebrow">Professional Summary</p>
+          <h2 id="summary-title">Building intelligent systems with useful business outcomes.</h2>
+        </div>
+        <p>
+          Results-driven Data Analyst and Machine Learning Engineer with
+          hands-on experience in Python, SQL, Power BI, and deep learning.
+          Proven ability to convert large datasets into actionable insights
+          through interactive dashboards, predictive models, and end-to-end
+          automation systems.
+        </p>
+      </section>
+
+      <section class="section" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <p class="eyebrow">Selected Projects</p>
+          <h2 id="work-title">From dashboards to real-time AI.</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card" data-project="forecasting">
+            <span class="project-index">01</span>
+            <h3>Sales Data Analysis & Forecasting</h3>
+            <p>
+              Analysed 2+ years of sales data across 8 product categories,
+              built Power BI dashboards for 10+ stakeholders, and developed a
+              Scikit-learn forecast model with ~85% directional accuracy.
+            </p>
+            <div class="tag-row">
+              <span>Python</span><span>SQL</span><span>Power BI</span><span>Scikit-learn</span>
+            </div>
+          </article>
+
+          <article class="project-card" data-project="monitor">
+            <span class="project-index">02</span>
+            <h3>Meeting Monitor</h3>
+            <p>
+              Automated Microsoft Teams call detection, audio recording,
+              on-device faster-whisper transcription, Gemini summaries, and
+              SMTP email delivery on configurable schedules.
+            </p>
+            <div class="tag-row">
+              <span>Python</span><span>Whisper</span><span>Gemini API</span><span>SMTP</span>
+            </div>
+          </article>
+
+          <article class="project-card" data-project="plants">
+            <span class="project-index">03</span>
+            <h3>Plant Disease Detection</h3>
+            <p>
+              Trained a CNN for 38 plant disease classes on 35,000+ leaf images,
+              achieving 99.35% validation accuracy with dropout, batch
+              normalization, and Adam optimization.
+            </p>
+            <div class="tag-row">
+              <span>TensorFlow</span><span>Keras</span><span>OpenCV</span><span>CNN</span>
+            </div>
+          </article>
+
+          <article class="project-card" data-project="drive">
+            <span class="project-index">04</span>
+            <h3>Self-Driving Car Simulation</h3>
+            <p>
+              Built an end-to-end steering angle prediction pipeline and
+              benchmarked YOLOv5s versus YOLOv5m for real-time detection,
+              balancing speed and mAP.
+            </p>
+            <div class="tag-row">
+              <span>Deep Learning</span><span>YOLOv5</span><span>OpenCV</span><span>Vision</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section skills-section" id="skills" aria-labelledby="skills-title">
+        <div class="section-heading">
+          <p class="eyebrow">Technical Stack</p>
+          <h2 id="skills-title">Tools I use to ship analysis and AI systems.</h2>
+        </div>
+        <div class="skills-layout">
+          <div class="skill-orbit" aria-hidden="true">
+            <div class="orbit-ring"></div>
+            <span style="--i: 0">Python</span>
+            <span style="--i: 1">SQL</span>
+            <span style="--i: 2">Power BI</span>
+            <span style="--i: 3">TensorFlow</span>
+            <span style="--i: 4">OpenCV</span>
+            <span style="--i: 5">Java</span>
+            <span style="--i: 6">REST</span>
+            <span style="--i: 7">Excel</span>
+          </div>
+          <div class="skills-list">
+            <div>
+              <h3>Languages</h3>
+              <p>Python, Java, JavaScript, R</p>
+            </div>
+            <div>
+              <h3>Databases</h3>
+              <p>SQL, MySQL, PostgreSQL, MS SQL Server</p>
+            </div>
+            <div>
+              <h3>ML / AI</h3>
+              <p>TensorFlow, Keras, Scikit-learn, OpenCV, YOLOv5, YOLOv8, CNN, Deep Learning</p>
+            </div>
+            <div>
+              <h3>Data & Automation</h3>
+              <p>Pandas, NumPy, Matplotlib, Seaborn, Power BI, Advanced Excel, Git, Linux, REST APIs</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section timeline" id="experience" aria-labelledby="experience-title">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2 id="experience-title">Operational data, surveillance AI, and production web work.</h2>
+        </div>
+        <ol class="timeline-list">
+          <li>
+            <time>June 2024 - July 2024</time>
+            <div>
+              <h3>IBM Internship - Real-Time Object Detection & Smart Surveillance</h3>
+              <p>
+                Built YOLOv5/YOLOv8 surveillance pipelines at 25+ FPS with
+                ROI intrusion alerts, automated person counting, and DeepSORT
+                object tracking.
+              </p>
+            </div>
+          </li>
+          <li>
+            <time>Jan 2022 - Mar 2023</time>
+            <div>
+              <h3>L1 Executive - Bharti Airtel Limited</h3>
+              <p>
+                Monitored 500+ network nodes, wrote Python CDR scripts,
+                queried telecom KPIs with SQL, and reduced manual monitoring
+                work by ~30% with Java/Python automation.
+              </p>
+            </div>
+          </li>
+          <li>
+            <time>June 2021 - July 2021</time>
+            <div>
+              <h3>Web Developer Intern - TPPL</h3>
+              <p>
+                Developed a responsive HTML, CSS, JavaScript, and MySQL-backed
+                website with validation, database management, and deployment.
+              </p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section class="section credentials" aria-label="Education and certifications">
+        <div>
+          <p class="eyebrow">Education</p>
+          <h2>Computer Science foundation.</h2>
+          <p>M.Tech, Computer Science & Engineering - UPES, Dehradun, June 2025</p>
+          <p>B.Tech, Computer Science & Engineering - UPES, Dehradun, July 2022</p>
+        </div>
+        <div>
+          <p class="eyebrow">Certifications</p>
+          <ul>
+            <li>Databricks Accredited Generative AI Fundamentals</li>
+            <li>React JS, SQL Basic, Microsoft Power BI, Advanced Excel</li>
+            <li>Java Full Stack, Software Project Management, Innovation & Entrepreneurship</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <p class="eyebrow">Contact</p>
+        <h2 id="contact-title">Let’s build something data-driven.</h2>
+        <div class="contact-actions">
+          <a href="mailto:devanshverma0099@gmail.com">devanshverma0099@gmail.com</a>
+          <a href="tel:+919812660099">+91 9812660099</a>
+          <a href="https://github.com/devanshverma3211">GitHub</a>
+          <a href="https://linkedin.com/in/devanshverma0">LinkedIn</a>
+        </div>
+      </section>
+    </main>
+
+    <button class="cursor-hint" type="button" aria-label="Toggle 3D scene intensity">
+      <span></span>
+    </button>
+
+    <script src="main.js"></script>
+  </body>
+</html>
